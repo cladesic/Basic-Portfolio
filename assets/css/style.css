@@ -1,0 +1,41 @@
+body{
+    background-color: #dddddd;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #ffffff;
+    color:#777777;
+    font-family: 'Georgia', Times, Times New Roman, serif
+}
+
+.header a{
+    color: #777777
+}
+
+.header a.name{
+    font-size: 25px;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    max-width: 960px;
+    text-align: center;
+}
+
+.header a.active{
+    background-color: #ffffff;
+    text-align: right;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    max-width: 960px;
+    text-align: center;
+
+}
+.footer {
+    background-color: #666666;
+    color:#ffffff;
+    text-align: center;
+    font-size: 10px;
+}
