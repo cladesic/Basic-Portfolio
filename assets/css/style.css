@@ -3,39 +3,41 @@ body{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.header{
+.topNav{
     overflow: hidden;
     background-color: #ffffff;
     color:#777777;
+    
+    margin: auto;
     font-family: 'Georgia', Times, Times New Roman, serif
 }
 
-.header a{
-    color: #777777
-}
-
-.header a.name{
+.topNav-name{
     font-size: 25px;
-    color:#ffffff;
+    float: left;
+    padding: 12px 12px;
     background-color: #4aaaa5;
-    max-width: 960px;
-    text-align: center;
+    max-width: 200px;
+    
 }
 
-.header a.active{
+.topNav-right{
     background-color: #ffffff;
-    text-align: right;
+    float: right;
+    padding: 12px 5px;
+    
 }
 
-.wrapper{
+.mainContent{
     background-color: #ffffff;
     max-width: 960px;
-    text-align: center;
+    margin: auto;
 
 }
 .footer {
     background-color: #666666;
     color:#ffffff;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
+    padding: 12px 5px;
 }
