@@ -9,41 +9,46 @@
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
-    <header class="header">
-    <!--Navigation and links to other navigation pages-->
-    <div class="topNav">
-        
-     <!--Nav Name to left-->   
-        <div class="topNav-name">
-        <a href="#name">Charles Ladesic</a>
-        </div>
-
-     <!--Nav to align right-->   
-        <div class="topNav-right">
+    <!--Header and links to other navigation pages-->
+    <header>
+    <section id="headBar">   
+    <section id="name">
+        <a href="#default">Charles Ladesic</a>
+    </section>
+    <section id="links">
         <a href="index.html">About</a>|
         <a href="portfolio.html">Portifolio</a>|
         <a href="contact.html">Contact</a>|
-        </div>
-    </div>
+    </section>
+    </section>
+   
     </header>
-    
-    
-    
+<div class="main">
+    <section id="h1">
+        Contact
+    </section>
+   
    <!--This is the main content area-->
-    <div class="mainContent">
-        <div class="h1">
-          Contact
-        </div> 
-        <div class="mainContent">
+    <section id="fullname">   
+        Name <br>
+        <input type="text" name="fullname">
+        <br>
+        Email <br>
+        <input type="email" name="email">
+        <br>
         
-        </div>
-        
-        
-
+     </section>
+    <section id="message">    
+        Message
+        <textarea rows="2" cols="20" name="message">
+    <br>
+    </section>
+    
+ </div>   
     <!--This is the footer with the special character for copyright-->
     <div class="footer">
         <p>&copy;Created by Charles Ladesic</p>
     </div>
-    
+ </main>   
 </body>
 </html>
