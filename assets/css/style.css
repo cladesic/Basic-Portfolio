@@ -11,7 +11,9 @@ body{
 header{
     width:100%;
     background:#ffffff;
-    border-bottom:2px solid grey;
+    border-bottom:2px solid #cccccc;
+    
+
 }
 #headBar{
     display:flex;
@@ -29,13 +31,20 @@ header{
     color:#ffffff;
     background-color: #4aaaa5;
     float:left;
-    margin-right: auto;    
+    margin-right: auto;
+    text-decoration: none;    
   }
-
+  .name1{
+    text-decoration: none;
+}
+.me{
+    text-decoration: none;
+}
 #links{
     background-color: #ffffff;
     float:left;
     color:#4aaaa5;
+    text-decoration: none;
     
 }
 .main{
@@ -44,7 +53,7 @@ header{
     clear:both;
     background-color: #ffffff;
     padding-top:5px;
-    border: 1px solid gray;
+    border: 1px solid #dddddd;
     position: relative;
     top:25px;
     height: 500px;
@@ -55,26 +64,33 @@ header{
     color:#4aaaa5;
     padding: 5px;
     font-size: 28px;
-    border-bottom:2px solid gray;
+    border-bottom:2px solid #dddddd;
 }
 #p1{
     text-indent: 20px;
     word-wrap: normal;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #p2{
     text-indent: 20px;
     word-wrap: normal;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #fullname{
 padding: 5px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #message{
 padding: 5px;
-margin:auto;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+ #submit{
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
 .footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
